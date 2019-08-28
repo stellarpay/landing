@@ -1,0 +1,120 @@
+body{
+    font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight:700
+}
+.button-extra{
+  display: inline-block;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  height: 3.5rem;
+  font-size: 1rem;
+  color: rgb(34, 45, 56);
+  background-color: white;
+  line-height: 2.5rem;
+  outline: none;
+  transition: all 0.3s ease;
+  flex: 0 0 auto;
+  border-radius: 2px;
+  padding: 0px 1rem;
+  border-width: initial;
+  border-style: initial;
+  border-color: transparent;
+  border-image: initial;
+}
+header.masthead{
+    position:relative;
+    background-color:#343a40;
+    background:linear-gradient(-204deg,#16306e 0,#121700 105%);
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    padding-top:8rem;
+    padding-bottom:8rem
+}
+header.masthead .overlay{
+    position:absolute;
+    background-color:#212529;
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    opacity:.3
+}
+header.masthead h1{
+    font-size:2rem
+}
+@media (min-width:768px){
+    header.masthead{
+    }
+    header.masthead h1{
+        font-size:3rem
+    }
+}
+.showcase .showcase-text{
+    padding:3rem
+}
+.showcase .showcase-img{
+    min-height:30rem;
+    background-size:cover
+}
+@media (min-width:768px){
+    .showcase .showcase-text{
+        padding:7rem
+    }
+}
+.features-icons{
+    padding-top:7rem;
+    padding-bottom:7rem
+}
+.features-icons .features-icons-item{
+    max-width:20rem
+}
+.features-icons .features-icons-item .features-icons-icon{
+    height:7rem
+}
+.features-icons .features-icons-item .features-icons-icon i{
+    font-size:4.5rem
+}
+.features-icons .features-icons-item:hover .features-icons-icon i{
+    font-size:5rem
+}
+.testimonials{
+    padding-top:7rem;
+    padding-bottom:7rem
+}
+.testimonials .testimonial-item{
+    max-width:18rem
+}
+.testimonials .testimonial-item img{
+    max-width:12rem;
+    box-shadow:0 5px 5px 0 #adb5bd
+}
+.call-to-action{
+    position:relative;
+    background-color:#343a40;
+    background:url(../img/bg-masthead.jpg) no-repeat center center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    padding-top:7rem;
+    padding-bottom:7rem
+}
+.call-to-action .overlay{
+    position:absolute;
+    background-color:#212529;
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    opacity:.3
+}
+footer.footer{
+    padding-top:4rem;
+    padding-bottom:4rem
+}
